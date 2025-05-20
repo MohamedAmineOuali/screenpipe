@@ -14,7 +14,7 @@ export { RateLimiter };
 
 export default Sentry.withSentry(
 	(env) => ({
-		dsn: 'https://60750a679399e9d0b8631c059fb7578d@o4507617161314304.ingest.us.sentry.io/4508689350983680',
+		dsn: 'https://e1a7120679ff783e0b7e482d044089b0@o4509179119403008.ingest.us.sentry.io/4509179122810880',
 		tracesSampleRate: 0.1,
 		sampleRate: 0.1,
 		environment: env.NODE_ENV || 'development',
